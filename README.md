@@ -3,6 +3,8 @@ CONFIGURAÇÃO PARA UTILIZAR O SISTEMA
 - npm install express
 - npm install express-handlebars
 - npm install body-parser
+- npm install sequelizes
+- npm install mysql2
 
 
 
