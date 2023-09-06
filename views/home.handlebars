@@ -1,0 +1,24 @@
+
+
+<div class="container-users">
+    {{#each p}}
+
+
+        <div class="user" style="max-width: 18rem;">
+            <div class="card-header bg-transparent border-light">{{dataValues.id}}</div>
+                <div class="container-data">
+                    <h2>Nome: {{dataValues.nome}}</h2>
+                    <p>Email: {{dataValues.email}}</p>
+                    <p>Numero: {{dataValues.numero}}</p>
+                    <p>senha: {{dataValues.senha}}</p>
+                </div>
+                <div class="container-opocao-botao">
+                    <a  href="/delet/{{dataValues.id}}"><button type="button" class="btn btn-danger">Excluir</button></a>
+                    <a href="/editar/{{dataValues.id}}"><button type="button" class="btn btn-primary">editar perfil</button></a>
+                </div>
+                <div>
+                    <a href="/esqueciasenha/{{dataValues.id}}">esqueceu a senha?</a>
+                </div>
+            </div>
+    {{/each}}
+</div>

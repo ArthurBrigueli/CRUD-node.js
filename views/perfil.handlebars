@@ -1,0 +1,12 @@
+<div>
+    <a href="/"><button>Home</button></a>   
+</div>
+
+{{#each nome}}
+    <div>
+        <small>id: {{dataValues.id}}</small>
+        <h2>{{dataValues.nome}}</h2>
+        <p>{{dataValues.email}}</p>
+        <p>{{dataValues.numero}}</p>
+    </div>
+{{/each}}

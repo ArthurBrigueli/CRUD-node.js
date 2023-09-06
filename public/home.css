@@ -1,0 +1,68 @@
+.container-users{
+    border-top: 1px solid rgb(12, 12, 12);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.user{
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(7, 7, 7);
+    padding: 20px;
+}
+
+
+.container-data{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+.container-opcao{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+    height: 10vh;
+}
+
+
+.container-logo{
+    padding-left: 30px;
+}
+
+
+.container-opocao-botao{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.container-coment{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-coment a{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.coment{
+    display: flex;
+    
+}
+

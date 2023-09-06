@@ -1,0 +1,19 @@
+{{#each nome}}
+
+    <form action="/att/{{dataValues.id}}" method="POST">
+    <label>
+        <span>nome:</span>
+        <input type="text" name="name" id="" value={{dataValues.nome}}>
+    </label>
+    <label>
+        <span>email:</span>
+        <input type="email" name="email" id="" value={{dataValues.email}}>
+    </label>
+    <label>
+        <span>numero:</span>
+        <input type="text" name="numero" id="" value={{dataValues.numero}}>
+    </label>
+    <button type="submit">editar</button>
+</form>
+
+{{/each}}
