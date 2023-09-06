@@ -11,7 +11,7 @@ CONFIGURAÇÃO PARA UTILIZAR O SISTEMA
 CRIAÇÃO DO BANCO DE DADOS PARA UTILIZAR O SISTEMA
 -
 - Crie uma pasta chamada models onde ficara os seguintes arquivos ->
-- Crie um arquivo chamado db.js para criar a coneção com o banco de dados em sequelize
+- Crie um arquivo chamado db.js para criar a conexão com o banco de dados em sequelize
 ```
 const Sequelize = require('sequelize')
 const sequelize = new Sequelize('nome do banco', 'nome do user', 'senha', {
